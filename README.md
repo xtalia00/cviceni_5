@@ -8,10 +8,10 @@ Následně upravte pro všechny možné uspořádání fragmentů.
 V R implementujte rekurzivní algoritmus pro PDP podle následujícího pseudokódu:
 ```
 PartialDigestProblem(L)
-1 width ← maximální prvek z L
-2 Delete(width,L)
-3 X ← {0,width}
-4 Place(L,X)
+1  width ← maximální prvek z L
+2  Delete(width,L)
+3  X ← {0,width}
+4  Place(L,X)
 
 Place(L,X)
 1   if L je prázdné 
@@ -42,6 +42,7 @@ V R implementujte Brute-force Motif Search algoritmus.
    * Sek - soubor sekvencí DNA (např. soubor `seq_skore.fasta`)
    * s - vektor počátečních pozic motivů
    * L - délka motivu
+   
    Výstupy:
    * bestScore - nejlepší skóre
    * blok - blok sekvencí
