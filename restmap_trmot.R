@@ -7,7 +7,7 @@ BRproDDP = function(a,b){
     mapapoza[i+1]= mapapoza[i] + a[i]
   }
   for (j in 1:(length(b))) {
-    mapapozb[i+1]= mapapozb[i] + b[i]
+    mapapozb[j+1]= mapapozb[j] + b[j]
   }
   return(mapapozb)
 }
