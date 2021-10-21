@@ -11,3 +11,31 @@ BRproDDP = function(a,b){
   }
   return(mapapozb)
 }
+
+
+
+PartialDigestProblem = function(L){
+  
+#width ‹ max(L)
+#Delete(width,L)
+#X ‹ {0,width}
+# Place(L,X)
+#Place(L,X)
+if (length(L)==0){
+output = X }
+return(X)
+
+
+#y ‹ maximální prvek z L
+# if ??(y,X)
+
+# pøidej y do X a odstraò délky ??(y,X) z L
+# Place(L,X)
+# odstraò y z X a pøidej délky ??(y,X) do L
+# if ??(width-y,X)
+
+# pøidej width-y do X a odstraò délky ??(width-y,X) z L
+# Place(L,X)
+# odstraò width-y z X a pøidej délky ??(width-y,X) do L
+# return
+}
