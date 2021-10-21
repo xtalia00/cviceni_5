@@ -3,13 +3,22 @@ BRproDDP = function(a,b){
   mapapoza[1]=0
   mapapozb = c()
   mapapozb[1]=0
+  difer = c()
   for (i in 1:(length(a))) {
     mapapoza[i+1]= mapapoza[i] + a[i]
   }
   for (j in 1:(length(b))) {
     mapapozb[j+1]= mapapozb[j] + b[j]
   }
-  return(mapapozb)
+  slouc = sort(unique(c(mapapozb,mapapoza)),decreasing = FALSE)
+  
+  
+  
+  for (e in 2:(length(slouc))) {
+    difer[e-1] = slouc[e] - slouc[e-1]
+  }
+  
+  return(sort(difer))
 }
 
 
